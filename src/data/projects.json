@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Personal Diary App",
+    "imageSrc": "projects/diaryapp.png",
+    "description": "A private diary app built in Android Studio using Jetpack Compose and Room DB.",
+    "skills": ["Android", "Kotlin", "Jetpack Compose", "Room"],
+    "demo": "https://your-demo-link.com",
+    "source": "https://github.com/jasmeen786/personal-diary-app"
+  },
+  {
+    "title": "BrightLights Food Pantry",
+    "imageSrc": "projects/foodpantry.png",
+    "description": "A full-stack web app for food inventory and donation tracking, built for BrightLights Africa.",
+    "skills": ["React", "Node.js", "MongoDB", "Express"],
+    "demo": "https://your-deployed-site.com",
+    "source": "https://github.com/jasmeen786/food-pantry"
+  },
+  {
+    "title": "Weather Updates",
+    "imageSrc": "projects/weather.png",
+    "description": "Displays current weather and temperature using OpenWeather API.",
+    "skills": ["HTML", "CSS", "JavaScript", "API"],
+    "demo": "https://your-demo-weather.com",
+    "source": "https://github.com/jasmeen786/weather-app"
+  }
+]

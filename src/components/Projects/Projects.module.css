@@ -1,0 +1,153 @@
+.container {
+  background-color: #010927;
+  color: #fff;
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.title span {
+  color: #4aa7ff;
+}
+
+.projectsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #0c1c3b;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  box-shadow: 0 0 12px rgba(74, 167, 255, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  color: #4aa7ff;
+}
+
+.card p {
+  font-size: 14px;
+  color: #d3d3d3;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.links a {
+  color: #fff;
+  background-color: #4aa7ff;
+  padding: 8px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.links a:hover {
+  background-color: #2e85e0;
+}
+
+.viewMore {
+  display: inline-block;
+  margin-top: 40px;
+  color: #4aa7ff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 16px;
+}
+.projectsGrid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+}
+
+.card {
+  background-color: #0e0e1f;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-bottom: 2px solid #6d1e43;
+}
+
+.card h3 {
+  margin: 15px 0 5px;
+  font-size: 1.2rem;
+  color: #f2ecef;
+}
+
+.card p {
+  padding: 0 15px 10px;
+  font-size: 0.95rem;
+  color: #c5c5c5;
+}
+
+.links {
+  padding-bottom: 15px;
+}
+
+.links a {
+  background-color: blue;
+  color: #0e0e1f;
+  padding: 8px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #f2ecef;
+  color: #6d1e43;
+}
+.viewMore {
+  display: inline-block;
+  margin: 30px auto 0;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.viewMore:hover {
+  color: #f2ecef;
+}
