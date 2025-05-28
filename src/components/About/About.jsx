@@ -14,6 +14,7 @@ const About = () => {
 
         <div className={styles.text}>
           <h2 className={styles.heading}>
+<<<<<<< HEAD
             ABOUT ME <span></span>
           </h2>
           <h3 className={styles.subheading}>
@@ -26,6 +27,18 @@ const About = () => {
            user-centric solutions. With strong problem-solving abilities, excellent collaboration skills, 
            and a continuous learning mindset,
           I aim to contribute to innovative teams and deliver impactful digital experiences that drive real-world results.
+=======
+            ABOUT <span>ME</span>
+          </h2>
+          <h3 className={styles.subheading}>
+            SOFTWARE <span>STUDENT</span>
+          </h3>
+          <p className={styles.paragraph}>
+            I am a Software Development student at Bow Valley College with expertise in HTML, CSS, JavaScript, and React. 
+            I specialize in building robust solutions and have expanded my skills to include Node.js for dynamic web development. 
+            With strong communication, leadership, and organizational skills, I am committed to delivering high-quality results and 
+            continuous learning in the ever-evolving tech landscape.
+>>>>>>> de9dda31e096998618f435dc4a823f5c9ba0d37f
           </p>
 
           <a
